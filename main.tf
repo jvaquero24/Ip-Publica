@@ -1,4 +1,4 @@
-resource "azurestack_public_ip" "ippublic" {
+resource "azurerm_public_ip" "ippublic" {
   name                         = var.name_ip_public
   location                     = var.location
   resource_group_name          = var.resource_group_name
